@@ -1,0 +1,581 @@
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('../fonts/GothamPro.eot');
+    src: local('../fonts/GothamPro'),
+        url('../fonts/GothamPro.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GothamPro.woff') format('woff'),
+        url('../fonts/GothamPro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Pro Light';
+    src: url('../fonts/GothamPro-Light.eot');
+    src: local('Gotham Pro Light'), local('GothamPro-Light'),
+        url('../fonts/GothamPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GothamPro-Light.woff') format('woff'),
+        url('../fonts/GothamPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Pro Medium';
+    src: url('../fonts/GothamPro-Medium.eot');
+    src: local('Gotham Pro Medium'), local('GothamPro-Medium'),
+        url('../fonts/GothamPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GothamPro-Medium.woff') format('woff'),
+        url('../fonts/GothamPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothamProRegular';
+    src: url('../fonts/GothamProRegular.eot');
+    src: local('Gotham Pro Reguler'), local('GothamProRegular'),
+        url('../fonts/GothamProRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GothamProRegular.woff') format('woff'),
+        url('../fonts/GothamProRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+span {
+    font-family: GothamProRegular;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.block H2 {
+    font-family: Gotham Pro Light;
+    font-weight: 300;
+    text-align: left;
+    align-items: center;
+    width: 211px;
+    font-size: 31px;
+    line-height: 37px;
+    display: flex;
+    color: #444444;
+    margin: 0;
+}
+
+H5,
+H6 {
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0em;
+    margin: 0;
+}
+
+.main_block {
+    margin: 26px 0 0 55px;
+}
+
+.block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    width: 1170px;
+    height: 37px;
+    margin: 0px 0px 25px 0px;
+}
+
+.sale_hits {
+    width: 211px;
+    height: 37px;
+    margin-right: 10px;
+}
+
+.sale_hits H2 {
+    font-family: Gotham Pro Light;
+    font-weight: 300;
+    text-align: left;
+    align-items: center;
+    width: 211px;
+    font-size: 31px;
+    line-height: 32.5px;
+    display: flex;
+    color: #444444;
+    margin: 0;
+}
+
+.arrow {
+    display: flex;
+    width: 24px;
+    height: 24px;
+}
+
+.slider {
+    width: 1170px;
+    height: 387px;
+}
+
+.item {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 387px;
+    width: 270px;
+    left: 55px;
+    top: 88px;
+}
+
+.button_frame_4_0 {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+.button_frame_4_1 {
+    background: #F6F6F6;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    margin: 0 10px 0 0;
+    border: 0;
+}
+
+.button_frame_4_2 {
+    background: #F6F6F6;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.frame_4 {
+    display: flex;
+}
+
+.frame_4:hover {
+    cursor: pointer;
+}
+
+.frame_11635 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 183px;
+    height: 25px;
+}
+
+.badge_new {
+    width: 78px;
+    height: 25px;
+    background: #EEFCF6;
+    border-radius: 5px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 5px 0 0;
+}
+
+.badge_new H6 {
+    font-family: GothamProRegular;
+    font-size: 13px;
+    line-height: 23px;
+    text-align: center;
+    color: #3DDC97;
+}
+
+.badge_bestseller {
+    width: 100px;
+    height: 25px;
+    background: #FCF4ED;
+    border-radius: 5px;
+    flex: none;
+}
+
+.badge_bestseller H6 {
+    font-family: GothamProRegular;
+    font-size: 13px;
+    line-height: 23px;
+    text-align: center;
+    color: #E49F62;
+}
+
+.goods_top {
+    position: absolute;
+    height: 150px;
+    width: 230px;
+    left: 20px;
+    right: 20px;
+    top: 20px;
+    background: center url("../rectangle1.jpg");
+    background-repeat: no-repeat;
+    background-size: 200px 150px;
+}
+
+.goods_top_2 {
+    position: absolute;
+    height: 150px;
+    width: 230px;
+    left: 20px;
+    right: 20px;
+    top: 20px;
+    background: center url("../rectangle2.jpg");
+    background-repeat: no-repeat;
+    background-size: 200px 150px;
+}
+
+.goods_top_3 {
+    position: absolute;
+    height: 150px;
+    width: 230px;
+    left: 20px;
+    right: 20px;
+    top: 20px;
+    background: center url("../rectangle3.jpg");
+    background-repeat: no-repeat;
+    background-size: 200px 150px;
+}
+
+.goods_top_4 {
+    position: absolute;
+    height: 150px;
+    width: 230px;
+    left: 20px;
+    right: 20px;
+    top: 20px;
+    background: center url("../rectangle4.jpg");
+    background-repeat: no-repeat;
+    background-size: 200px 150px;
+}
+
+.goods_middle {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 230px;
+    height: 63px;
+    left: 20px;
+    top: 185px;
+}
+
+.goods_name_1 {
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-bottom: 5px;
+    font-size: 13px;
+    height: 19px;
+    color: #888888;
+}
+
+.goods_name_1 span {
+    line-height: 17px;
+    font-family: Gotham Pro Light;
+}
+
+.goods_name_2 H5 {
+    font-family: GothamProRegular;
+    font-size: 15px;
+    line-height: 16px;
+    color: #444444;
+}
+
+.goods_name_2 {
+    height: 18px;
+    align-self: stretch;
+    margin-bottom: 5px;
+}
+
+.goods_star {
+    width: 16px;
+    height: 16px;
+    color: #00ADEF;
+    margin-right: 5px;
+}
+
+.goods_rate {
+    width: 165px;
+    height: 15px;
+}
+
+.goods_rate H6 {
+    font-family: GothamProRegular;
+    font-size: 13px;
+    line-height: 12px;
+    color: #00ADEF;
+}
+
+.goods_name_3 {
+    display: flex;
+}
+
+.price {
+    position: absolute;
+    left: 20px;
+    top: 281px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 238px;
+    height: 23px;
+}
+
+.discount {
+    width: 130px;
+    height: 23px;
+    font-size: 19px;
+    line-height: 21px;
+    font-family: GothamProRegular;
+    color: #444444;
+    margin: 0 5px 0 0;
+}
+
+.actual {
+    position: static;
+    width: 103px;
+    height: 23px;
+    font-family: GothamProRegular;
+    font-size: 13px;
+    line-height: 17px;
+    display: flex;
+    align-items: flex-end;
+    text-decoration-line: line-through;
+    color: #888888;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.bottom_action {
+    display: flex;
+    position: absolute;
+    width: 230px;
+    height: 48px;
+    left: 20px;
+    bottom: 20px;
+}
+
+.bottom_action button {
+    width: 152px;
+    height: 48px;
+    padding: 0;
+    margin-right: 15px;
+    background: #00ADEF;
+    border-radius: 5px;
+    border: #00ADEF;
+}
+
+.order {
+    width: 80px;
+    height: 18px;
+    font-size: 15px;
+    line-height: 15px;
+    color: #FFFFFF;
+    font-family: Gotham Pro Medium;
+    font-style: normal;
+    font-weight: normal;
+    margin: 14px 36px 16px 36px;
+}
+
+.like {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 167px;
+    top: 12px;
+}
+
+.compare {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 206px;
+    top: 12px;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .main_block {
+        margin: 18px 0 0 20px;
+    }
+
+    .block {
+        width: 709px;
+        margin: 0px 0px 25px 0px;
+    }
+
+    .slider {
+        margin-left: 1px;
+        width: 801px;
+    }
+
+    .badge_new {
+        display: none;
+    }
+
+    .actual {
+        display: none;
+    }
+
+    .item {
+        width: 247px;
+    }
+
+    .sale_hits H2 {
+        line-height: 32px;
+    }
+
+    .goods_top {
+        width: 209px;
+    }
+
+    .discount {
+        line-height: 21px;
+    }
+
+    .goods_name_2 H5 {
+        line-height: 15px;
+    }
+
+    .bottom_action button {
+        width: 131px;
+    }
+
+    .order {
+        margin: 14px 25.5px 16px 25.5px;
+    }
+
+    .like {
+        left: 146px;
+    }
+
+    .compare {
+        left: 185px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .main_block {
+        margin: 18px 0 0 15px;
+    }
+
+    .block {
+        width: 290px;
+        height: 33px;
+        margin: 0px 0px 15px 0px;
+    }
+
+    .slider {
+        width: 585px;
+        height: unset;
+    }
+
+    .sale_hits {
+        width: 256px;
+        height: 33px;
+    }
+
+    .sale_hits H2 {
+        font-size: 27px;
+        line-height: 29.5px;
+    }
+
+    .button_frame_4_0 {
+        display: none;
+    }
+
+    .goods_top, .goods_top_2, .goods_top_3, .goods_top_4 {
+        width: 249px;
+        height: 98px;
+        background-size: 131px 98px;
+    }
+
+    .goods_middle {
+        top: 133px;
+        left: 15px;
+    }
+
+    .goods_name_2 {
+        height: 15px;
+    }
+
+    .goods_name_2 H5 {
+        font-size: 13px;
+        line-height: 12px;
+    }
+
+    .goods_rate H6 {
+        line-height: 13px;
+    }
+
+    .item {
+        height: 309px;
+        width: 290px;
+    }
+
+    .badge_new {
+        margin: 0 0 5px 0;
+    }
+
+    .frame_11635 {
+        flex-direction: column;
+    }
+
+    .price {
+        left: 15px;
+        top: 211px;
+    }
+
+    .discount {
+        width: 96px;
+        height: 23px;
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    .actual {
+        font-size: 11px;
+        line-height: 22px;
+        align-items: unset;
+    }
+
+    .bottom_action {
+        top: 249px;
+        left: 15px;
+        width: 260px;
+        height: 45px;
+    }
+
+    .bottom_action button {
+        width: 260px;
+        height: 45px;
+        margin-right: unset;
+    }
+
+    .compare {
+        left: 236px;
+        top: -234px;
+
+    }
+
+    .like {
+        left: 200px;
+        top: -234px;
+    }
+
+    .order {
+        margin: 16px 95px;
+        width: 70px;
+        height: 13px;
+        font-size: 13px;
+        line-height: 10px;
+        text-indent: -1px;
+    }
+}
